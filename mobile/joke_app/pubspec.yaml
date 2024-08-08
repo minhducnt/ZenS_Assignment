@@ -1,0 +1,83 @@
+name: joke_app
+description: 'Jokee Single Serving APP'
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core
+  get: ^4.6.6
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+
+  # API
+  data_channel: ^2.0.0+1
+  dio: ^5.5.0+1
+  dio_cache_interceptor: ^3.5.0
+  dio_smart_retry: ^6.0.0
+  retrofit: ^4.1.0
+
+  # Localization
+  intl: ^0.19.0
+  flutter_localizations:
+    sdk: flutter
+
+  # Logger
+  talker: ^4.4.0
+  talker_flutter: ^4.4.0
+  talker_dio_logger: ^4.4.0
+
+  # Icons
+  fluentui_system_icons: ^1.1.251
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+
+  # Utils
+  internet_connection_checker_plus: ^2.5.1
+  flutter_screenutil: ^5.9.3
+  flex_color_scheme: ^7.3.1
+  cached_network_image: ^3.4.0
+
+  # UI
+  gap: ^3.0.1
+  loading_animation_widget: ^1.2.1
+  another_flutter_splash_screen: ^1.2.1
+  ndialog: ^4.3.1
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.4.11
+  flutter_gen_runner: ^5.6.0
+  freezed: ^2.5.2
+  hive_generator: ^2.0.1
+  json_serializable: ^6.8.0
+  retrofit_generator: ^8.1.2
+  melos: ^6.1.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+
+# Localization
+flutter_intl:
+  enabled: true
+  class_name: I10n
+  arb_dir: lib/app/global/localization/l10n
+  output_dir: lib/app/global/localization/generated
+  synthetic-package: true
+
+# Resources
+flutter_gen:
+  output: lib/app/global/constants/resources/

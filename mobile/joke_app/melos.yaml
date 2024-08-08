@@ -1,0 +1,36 @@
+name: full_stack_joke_dart
+packages:
+  - backend
+
+ide:
+  intellij:
+    enabled: false
+
+scripts:
+  backend:dev:
+    run: dart_frog dev
+    exec:
+      cuncurrency: 1
+      fail-fast: true
+    description: Starts the dev server for the backend
+    select-package:
+      flutter: false
+    packageFilters:
+      scope: backend
+      flutter: false
+
+  gen:build:
+    run: melos run build_runner:build --no-select
+    description: Generate all files for all packages in this project.
+    exec:
+      concurrency: 5
+      fail-fast: true
+
+  build_runner:build:
+    run: dart pub run build_runner build --delete-conflicting-outputs
+    description: Build all generated files for Dart packages in this project.
+    exec:
+      concurrency: 1
+      fail-fast: true
+    packageFilters:
+      dependsOn: build_runner
