@@ -16,7 +16,7 @@ A full-stack to-do app written in [Flutter][flutter_link] and [dart_frog][dart_f
 
 ## Getting Started
 
-To run the app, clone the repository and follow the setup instructions for the [backend][backend_link] and [`frontend`][frontend_link]. Once setup is complete, run the app.
+To run the app, clone the repository and follow the setup instructions for the [`backend`][backend_link] and [`frontend`][frontend_link]. Once setup is complete, run the app.
 
 ## Initial Setup
 
@@ -44,6 +44,16 @@ This command will download and install all the required dependencies for [`Melos
 dart pub global activate dart_frog_cli
 ```
 
+Configure the environment variables in the `.env` file in the [backend][backend_link] directory with the following template and add your database credentials:
+
+```bash
+DB_HOST = 'localhost'
+DB_PORT = 5432
+DB_DATABASE = 'zens_db'
+DB_USERNAME = ''
+DB_PASSWORD = ''
+```
+
 This command will download and install the [dart_frog][dart_frog_link] CLI, which can be used to run [dart_frog][dart_frog_link] projects. Once [dart_frog][dart_frog_link] is installed, you can run the todo app's backend.
 
 ```bash
@@ -59,6 +69,16 @@ To run the [Flutter][flutter_link] app, use the following command in the [fronte
 ```bash
 flutter run
 ```
+
+### Result
+
+#### Joke Page
+
+![Joke Page][assets_img]
+
+#### Joke Video
+
+![Joke Video][assets_video]
 
 [license_badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [mason_badge]: https://img.shields.io/endpoint?url=https%3A%2F%2Ftinyurl.com%2Fmason-badge
@@ -79,5 +99,9 @@ flutter run
 
 <!--  -->
 
-[backend_link]: ./backend/
-[frontend_link]: ./frontend/
+[backend_link]: ../backend/
+[frontend_link]: ../
+[assets_img]: ./results/ResImg_NguyenThanhMinhDuc.jpg
+[assets_video]: ./results/ResVideo_NguyenThanhMinhDuc.mp4
+
+<!--  -->

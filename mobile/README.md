@@ -1,11 +1,13 @@
-# Welcome to HLS interview!!
-# Jokee Single Serving APP
-This is a React Native evaluation test to create a single serving APP that displays jokes for user to vote.
+# Welcome to HLS interview
 
-![Jokee Page](./Joke.png)
+## **Joke Single Serving APP**
 
+This is a Flutter evaluation test to create a single serving APP that displays jokes for user to vote.
+
+![Joke Page](./Joke.png)
 
 ## Requirements
+
 This app will display a single joke for the user to read.
 After reading the joke, the user will like or dislike the joke.
 The app will record the vote in database and then show another joke for the user to read.
@@ -16,10 +18,12 @@ User should not see the same joke twice.
 User do not need to register or login to view the joke or vote for the joke.
 
 ## Technical Note
+
 App will use cookie to track if a user has voted for a joke.
 It is okay if the user clears his cookie and votes again.
 
 ## Rules
+
 Coder will be given a project to code and the code will be the basis of evaluation. Coder is expected to follow the rules below:
 
 - A week to finish for Internship
@@ -29,7 +33,9 @@ Coder will be given a project to code and the code will be the basis of evaluati
 - Work like you will continue the project
 
 ## Submission of work
+
 After you have finished your work, please submit it as followed:
+
 - Push your code to github and public access
 - Push all commits on the master branch only
 - Share github repo to tester
@@ -37,23 +43,25 @@ After you have finished your work, please submit it as followed:
 Tester will draw your git commits to evaluate your code and also test your app on Heroku.
 
 ## Evaluation Criterion
+
 Coder must finished at least 50% of the requirements to be given a pass.
 Evaluation will be based on speed, code quality and critical thinking.
 Grading is pessimistic - You will not get an A unless you clearly show you are an A. Some signs of an A is not enough.
 
 The general grading is such that
 
-Grade | What it means
-------|------------------------
-A     | Above our standard
-B     | Met our standard
-C     | Not good enough
-D     | This is seriously not good
-E     | Why should we hire you?
-
+| Grade | What it means              |
+| ----- | -------------------------- |
+| A     | Above our standard         |
+| B     | Met our standard           |
+| C     | Not good enough            |
+| D     | This is seriously not good |
+| E     | Why should we hire you?    |
 
 The evaluation form for a coder is as below:
-```
+
+```text
+
 Name:
 Date of Evaluation:
 
@@ -65,7 +73,7 @@ Git Commits
 A – Great commit messages and structure
 B – Good commit messages and structure
 C – Okay commit messages and structure
-D – Poor commit messages and strucuture
+D – Poor commit messages and structure
 E – No use of git
 
 Test Coverage
@@ -102,11 +110,13 @@ Comments by tester:
 ```
 
 ## Bonus Points
-+ Implemented design fully
-+ The app is mobile responsive.
-+ Joke is displayed
-+ Can deploy to somewhere
-+ Eslint is set up
+
+- Implemented design fully
+
+- The app is mobile responsive.
+- Joke is displayed
+- Can deploy to somewhere
+- Eslint is set up
 
 ## Jokes Content
 
@@ -118,7 +128,7 @@ The child then went to his mother, asked her the same question and she told him,
 The child ran back to his father and said, "You lied to me!"
 His father replied, "No, your mom was talking about her side of the family."
 
------
+---
 
 Teacher: "Kids,what does the chicken give you?"
 Student: "Meat!"
@@ -127,14 +137,14 @@ Student: "Bacon!"
 Teacher: "Great! And what does the fat cow give you?"
 Student: "Homework!"
 
------
+---
 
 The teacher asked Jimmy, "Why is your cat at school today Jimmy?"
 Jimmy replied crying, "Because I heard my daddy tell my mommy, 'I am going to eat that pussy once Jimmy leaves for school today!'"
 
------
+---
 
 A housewife, an accountant and a lawyer were asked "How much is 2+2?"
 The housewife replies: "Four!".
-The accountant says: "I think it's either 3 or 4.  Let me run those figures through my spreadsheet one more time."
+The accountant says: "I think it's either 3 or 4. Let me run those figures through my spreadsheet one more time."
 The lawyer pulls the drapes, dims the lights and asks in a hushed voice, "How much do you want it to be?"
